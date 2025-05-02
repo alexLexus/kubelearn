@@ -52,176 +52,196 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RbctZd4Z_vAXxyjrAnWG" name="Страница — 2">
-    <mxGraphModel dx="1090" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2471" dy="1471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8yeFdutSNkAymLiLMFqT-10" value="Кластер Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="280" width="1160" height="600" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-10" value="Кластер Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="280" width="1160" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-11" target="8yeFdutSNkAymLiLMFqT-6">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="8yeFdutSNkAymLiLMFqT-11" target="8yeFdutSNkAymLiLMFqT-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-11" value="Узел Kubernetes 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-11" value="Узел Kubernetes 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="300" width="480" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-31" target="8yeFdutSNkAymLiLMFqT-7">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="8yeFdutSNkAymLiLMFqT-31" target="8yeFdutSNkAymLiLMFqT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-31" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="300" width="360" height="380" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-31" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="360" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-5" value="Физические/Виртуальные&lt;div&gt;машины&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="720" height="80" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-5" value="Физические/Виртуальные&lt;div&gt;машины&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="160" width="720" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-6" value="Сервер 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="240" y="180" width="120" height="40" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-6" value="Сервер 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="180" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-7" value="Сервер 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="120" height="40" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-7" value="Сервер 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-8" value="Сервер N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="640" y="180" width="120" height="40" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-8" value="Сервер N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="580" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-9" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="560" y="180" width="40" height="40" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-9" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="500" y="180" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-24" value="Отвечает за коммуникацию между разными узлами внутри кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-24" value="Отвечает за коммуникацию между разными узлами внутри кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="320" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-25" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-25" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-26" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-26" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-27" value="Управление сетевыми ресурсами узла" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-27" value="Управление сетевыми ресурсами узла" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="370" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-28" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-28" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-29" value="Среда выполнения контейнеров - docker, containerd и т.д." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-29" value="Среда выполнения контейнеров - docker, containerd и т.д." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="420" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-33" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-33" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-34" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-34" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-36" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-36" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-47" value="Компоненты главного узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-47" value="Компоненты главного узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-110" y="500" width="20" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-48" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-48" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="480" width="320" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-49" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-49" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="480" width="380" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-51" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-51" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="500" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-52" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-52" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-53" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-53" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="380" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="520" y="500" width="20" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-59" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;Пвав&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-59" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;Пвав&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="600" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-61" value="Рабочая нагрузка узла. Только на рабочих узлах" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-61" value="Рабочая нагрузка узла. Только на рабочих узлах" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="500" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-33">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-180" y="520" />
+              <mxPoint x="-180" y="530" />
               <mxPoint x="-180" y="840" />
               <mxPoint x="340" y="840" />
               <mxPoint x="340" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-65">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-180" y="520" />
+              <mxPoint x="-180" y="530" />
               <mxPoint x="-180" y="840" />
               <mxPoint x="740" y="840" />
               <mxPoint x="740" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-62" value="API Server" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-62" value="API Server" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="500" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-63" value="Коммуникация между управляющим узлом и рабочими узлами" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-63" value="Коммуникация между управляющим узлом и рабочими узлами" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="500" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-64" target="8yeFdutSNkAymLiLMFqT-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="8yeFdutSNkAymLiLMFqT-64" target="8yeFdutSNkAymLiLMFqT-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="260" />
+              <mxPoint x="640" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-64" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="760" y="300" width="160" height="380" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-64" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="760" y="300" width="160" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-65" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-65" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-66" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-66" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-67" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-67" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-68" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-68" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="500" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-69" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-69" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-70" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-70" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="780" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-75" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-75" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-76" value="Планирование и распределение полезной нагрузки между узлами кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-76" value="Планирование и распределение полезной нагрузки между узлами кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="550" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-77" value="Kube Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-77" value="Kube Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-78" value="Управление всеми подами во всем кластере" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-78" value="Управление всеми подами во всем кластере" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="600" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-79" value="Cloud Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-79" value="Cloud Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="650" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-80" value="Взаимодействие с инфраструктурой" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-80" value="Взаимодействие с инфраструктурой" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="650" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-81" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-81" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="700" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-82" value="Распределенная key-value бд" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-82" value="Распределенная key-value бд" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="700" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-83" value="DNS Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-83" value="DNS Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="-80" y="750" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-84" value="Отвечает за DNS" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-84" value="Отвечает за DNS внутри кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="50" y="750" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-85" value="Общие компоненты любого узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="330" width="20" height="140" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-85" value="Общие компоненты любого узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="320" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nstYYv8MAEUA7YBcssoj-1" target="8yeFdutSNkAymLiLMFqT-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-1" value="&amp;gt; kubectl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#FFFFFF;align=left;spacingLeft=5;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-3" value="Утилита командной строки. Устанавливается &amp;nbsp;на компьютер пользователя и позволяет управлять кластером" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="540" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-4" value="Главный узел (Master NodePort) роль узла, который отвечает за управление кластером. Может быть несколько узлов с такой ролью, тогда один из них отвечает за управление кластером, а второй является резервным и вступает в работу, если другие узлы упали. На узлах с этой ролью полезная нагрузка (поды приложений) не запускается." style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=top;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="630" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-5" value="Рабочий узел. Здесь запускается полезная нагрузка. Управляется главным узлом." style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=top;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="590" width="20" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
