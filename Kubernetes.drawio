@@ -52,7 +52,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RbctZd4Z_vAXxyjrAnWG" name="Страница — 2">
-    <mxGraphModel dx="1066" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,7 +63,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8yeFdutSNkAymLiLMFqT-11" value="Узел Kubernetes 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="300" width="480" height="380" as="geometry" />
+          <mxGeometry x="-160" y="300" width="480" height="520" as="geometry" />
         </mxCell>
         <mxCell id="8yeFdutSNkAymLiLMFqT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-31" target="8yeFdutSNkAymLiLMFqT-7">
           <mxGeometry relative="1" as="geometry" />
@@ -113,8 +113,8 @@
         <mxCell id="8yeFdutSNkAymLiLMFqT-36" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
           <mxGeometry x="380" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-47" value="Общие компоненты любого узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="320" width="20" height="140" as="geometry" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-47" value="Компоненты главного узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="500" width="20" height="290" as="geometry" />
         </mxCell>
         <mxCell id="8yeFdutSNkAymLiLMFqT-48" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="480" width="320" height="10" as="geometry" />
@@ -140,22 +140,22 @@
         <mxCell id="8yeFdutSNkAymLiLMFqT-61" value="Рабочая нагрузка узла. Только на рабочих узлах" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="500" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-33">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-180" y="520" />
-              <mxPoint x="-180" y="700" />
-              <mxPoint x="340" y="700" />
+              <mxPoint x="-180" y="840" />
+              <mxPoint x="340" y="840" />
               <mxPoint x="340" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8yeFdutSNkAymLiLMFqT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-65">
+        <mxCell id="8yeFdutSNkAymLiLMFqT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;startArrow=classic;startFill=1;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-180" y="520" />
-              <mxPoint x="-180" y="700" />
-              <mxPoint x="740" y="700" />
+              <mxPoint x="-180" y="840" />
+              <mxPoint x="740" y="840" />
               <mxPoint x="740" y="340" />
             </Array>
           </mxGeometry>
@@ -189,6 +189,39 @@
         </mxCell>
         <mxCell id="8yeFdutSNkAymLiLMFqT-70" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
           <mxGeometry x="780" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-75" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-76" value="Планирование и распределение полезной нагрузки между узлами кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-77" value="Kube Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-78" value="Управление всеми подами во всем кластере" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="600" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-79" value="Cloud Controller Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-80" value="Взаимодействие с инфраструктурой" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-81" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-82" value="Распределенная key-value бд" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-83" value="DNS Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-84" value="Отвечает за DNS" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-85" value="Общие компоненты любого узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="330" width="20" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
