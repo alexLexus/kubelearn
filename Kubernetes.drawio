@@ -52,7 +52,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RbctZd4Z_vAXxyjrAnWG" name="Страница — 2">
-    <mxGraphModel dx="1146" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2471" dy="1471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
           <mxGeometry x="-400" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-3" value="Утилита командной строки. Устанавливается &amp;nbsp;на компьютер пользователя и позволяет управлять кластером" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="540" width="180" height="80" as="geometry" />
+          <mxGeometry x="-400" y="540" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-4" value="Главный узел (Master NodePort) роль узла, который отвечает за управление кластером. Может быть несколько узлов с такой ролью, тогда один из них отвечает за управление кластером, а второй является резервным и вступает в работу, если другие узлы упали. На узлах с этой ролью полезная нагрузка (поды приложений) не запускается." style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=top;rotation=90;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="630" width="20" height="480" as="geometry" />
@@ -264,20 +264,20 @@
         <mxCell id="nstYYv8MAEUA7YBcssoj-13" value="Container N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
           <mxGeometry x="1200" y="535" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nstYYv8MAEUA7YBcssoj-14" value="Volume" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="585" width="300" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-17" value="Volume 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-18" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050EF;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="640" width="40" height="40" as="geometry" />
+          <mxGeometry x="1150" y="600" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-19" value="Volume N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="1200" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nstYYv8MAEUA7YBcssoj-25" value="Группа контейнеров с общим диском и ip-аддрессом, которые должны быть развернуты и работать вместе. Если любой из контейнеров в поде недоступен, то недоступным считается весь под." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="730" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nstYYv8MAEUA7YBcssoj-14" value="Volumes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="585" width="320" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
