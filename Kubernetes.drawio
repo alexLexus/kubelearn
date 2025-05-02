@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="26.2.14" pages="2">
+  <diagram name="Pod" id="CMZWx3ZzJBlzdsJTgxAH">
+    <mxGraphModel dx="643" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4D4D4D" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-8" value="Сервер 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eeeeee;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-9" value="Сервер 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eeeeee;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-10" value="Сервер 3" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eeeeee;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-11" target="xPAlys0Nl01GMTkMGSCf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-11" target="xPAlys0Nl01GMTkMGSCf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-11" target="xPAlys0Nl01GMTkMGSCf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-11" value="Kubernetes" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=none;fontColor=#ffffff;fillColor=#0050ef;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-12" target="xPAlys0Nl01GMTkMGSCf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-12" value="Node 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0050ef;fontColor=#ffffff;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-13" target="xPAlys0Nl01GMTkMGSCf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-13" value="Node 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0050ef;fontColor=#ffffff;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="xPAlys0Nl01GMTkMGSCf-14" target="xPAlys0Nl01GMTkMGSCf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPAlys0Nl01GMTkMGSCf-14" value="Node 3" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0050ef;fontColor=#ffffff;absoluteArcSize=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="System name" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xPAlys0Nl01GMTkMGSCf-22">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="40" y="280" width="560" height="160" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RbctZd4Z_vAXxyjrAnWG" name="Страница — 2">
+    <mxGraphModel dx="1066" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8yeFdutSNkAymLiLMFqT-10" value="Кластер Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="280" width="1160" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-11" target="8yeFdutSNkAymLiLMFqT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-11" value="Узел Kubernetes 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="300" width="480" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-31" target="8yeFdutSNkAymLiLMFqT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-31" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="360" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-5" value="Физические/Виртуальные&lt;div&gt;машины&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-6" value="Сервер 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-7" value="Сервер 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-8" value="Сервер N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-9" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;arcSize=7;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-24" value="Отвечает за коммуникацию между разными узлами внутри кластера" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-25" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-26" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-27" value="Управление сетевыми ресурсами узла" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-28" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-29" value="Среда выполнения контейнеров - docker, containerd и т.д." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-33" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-34" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-36" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-47" value="Общие компоненты любого узла" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=0;spacingRight=0;spacing=0;spacingBottom=15;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="320" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-48" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="320" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-49" value="" style="line;strokeWidth=1;html=1;rounded=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="480" width="380" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-51" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-52" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-53" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-59" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;Пвав&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-61" value="Рабочая нагрузка узла. Только на рабочих узлах" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="520" />
+              <mxPoint x="-180" y="700" />
+              <mxPoint x="340" y="700" />
+              <mxPoint x="340" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-62" target="8yeFdutSNkAymLiLMFqT-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="520" />
+              <mxPoint x="-180" y="700" />
+              <mxPoint x="740" y="700" />
+              <mxPoint x="740" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-62" value="API Server" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-63" value="Коммуникация между управляющим узлом и рабочими узлами" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="8yeFdutSNkAymLiLMFqT-64" target="8yeFdutSNkAymLiLMFqT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-64" value="Узел Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=1;absoluteArcSize=1;arcSize=7;verticalAlign=bottom;align=left;spacingRight=0;fontStyle=0;spacingLeft=0;labelPosition=center;verticalLabelPosition=middle;fontSize=10;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="160" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-65" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-66" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-67" value="container runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-68" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-69" value="..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeFdutSNkAymLiLMFqT-70" value="Pod N" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="780" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
